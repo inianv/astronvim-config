@@ -1,1 +1,3 @@
-# Neovim Config\nAstroNvim v6 personal configuration.
+# Neovim Config
+
+AstroNvim v6 personal configuration.
