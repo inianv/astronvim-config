@@ -45,6 +45,10 @@ return {
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
       },
+      o = {
+        wrap = true, -- or false
+        colorcolumn = "80,120",
+      },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
         -- NOTE: `mapleader` and `maplocalleader` must be set in the AstroNvim opts or before `lazy.setup`

@@ -40,7 +40,7 @@ return {
             gopls = {
               gofumpt = true, -- gopls handles formatting, no need for goimports
               analyses = {
-                ST1003 = true,
+                -- ST1003 = true,
                 fillreturns = true,
                 nilness = true,
                 nonewvars = true,
@@ -61,7 +61,7 @@ return {
                 vendor = true,
               },
               completeUnimported = true,
-              staticcheck = true,
+              -- staticcheck = true,
               usePlaceholders = true,
               semanticTokens = true,
               matcher = "Fuzzy",
